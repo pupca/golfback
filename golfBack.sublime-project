@@ -1,0 +1,49 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "app/assets"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "app/controllers"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "app/helpers"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "app/models"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "app/mailers"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "app/views"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "config"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "config/locales"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "db"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "lib"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "public"
+		}
+	]
+}

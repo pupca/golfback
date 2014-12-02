@@ -16,6 +16,9 @@ gem 'high_voltage'
 gem 'mysql2'
 gem 'sendgrid'
 gem 'simple_form'
+gem "geocoder"
+gem "awesome_print"
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]

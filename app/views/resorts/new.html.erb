@@ -1,0 +1,16 @@
+<div class="authform">
+  <%= form_for(@resort, :html => { :role => 'form'}) do |f| %>
+    <h3>New Resort</h3>
+    <div class="form-group">
+      <%= f.label :name %>
+      <%= f.text_field :name, :autofocus => true, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :address %>
+      <%= f.text_field :address, class: 'form-control' %>
+    </div>
+  	
+     <%= f.submit 'Create new', :class => 'button right' %>
+  <% end %>
+</div>

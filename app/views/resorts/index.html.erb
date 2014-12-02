@@ -1,0 +1,27 @@
+<div class="container">
+	<div class="row">
+		<h3>Resorts</h3>
+		<div class="column">
+			<table class="table">
+				<tbody>
+					<% @resorts.each do |resort| %>
+					<tr>
+						<td>
+							<%= resort.name %>
+						</td>
+						<td>
+							<%= resort.address %>
+						</td>
+						<td>
+						<%= resort.longitude %>
+						</td>
+						<td>
+						<%= resort.latitude %>
+						</td>
+					</tr>
+					<% end %>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
