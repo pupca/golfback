@@ -30,8 +30,8 @@ if env == "production"
 
   # stderr_path "#{shared_path}/log/unicorn.stderr.log"
   # stdout_path "#{shared_path}/log/unicorn.stdout.log"
-  stderr_path "~/unicorn.stderr.log"
-  stdout_path "~/unicorn.stdout.log"
+  stderr_path "/home/ubuntu/unicorn.stderr.log"
+  stdout_path "/home/ubuntu/unicorn.stdout.log"
 end
 
 before_fork do |server, worker|
