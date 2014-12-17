@@ -28,8 +28,10 @@ if env == "production"
   user 'ubuntu', 'www-data'
   shared_path = "/home/ubuntu/apps/golfback/shared"
 
-  stderr_path "#{shared_path}/log/unicorn.stderr.log"
-  stdout_path "#{shared_path}/log/unicorn.stdout.log"
+  # stderr_path "#{shared_path}/log/unicorn.stderr.log"
+  # stdout_path "#{shared_path}/log/unicorn.stdout.log"
+  stderr_path "~/unicorn.stderr.log"
+  stdout_path "~/unicorn.stdout.log"
 end
 
 before_fork do |server, worker|
