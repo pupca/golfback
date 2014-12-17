@@ -18,6 +18,9 @@ gem 'sendgrid'
 gem 'simple_form'
 gem "geocoder"
 gem "awesome_print"
+gem "capistrano", "2.15.5"
+gem "unicorn"
+gem 'rvm-capistrano'
 
 group :development do
   gem 'better_errors'
@@ -32,5 +35,4 @@ group :development, :test do
 end
 group :production do
   gem 'rails_12factor'
-  gem 'unicorn'
 end
