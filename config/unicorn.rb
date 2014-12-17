@@ -22,11 +22,11 @@ pid "/tmp/unicorn.golfback.pid"
 if env == "production"
   # Help ensure your application will always spawn in the symlinked
   # "current" directory that Capistrano sets up.
-  working_directory "/home/ubuntu/apps/extensions/current"
+  working_directory "/home/ubuntu/apps/golfback/current"
 
   # feel free to point this anywhere accessible on the filesystem
   user 'ubuntu', 'www-data'
-  shared_path = "/home/ubuntu/apps/extensions/shared"
+  shared_path = "/home/ubuntu/apps/golfback/shared"
 
   stderr_path "#{shared_path}/log/unicorn.stderr.log"
   stdout_path "#{shared_path}/log/unicorn.stdout.log"
